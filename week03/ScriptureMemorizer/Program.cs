@@ -46,7 +46,7 @@ class Program
             if (input.ToLower() == "quit")
                 break;
 
-            scripture.HideRandomWords(3);
+            scripture.HideRandomWords(wordsToHide);
         }
     }
 }
